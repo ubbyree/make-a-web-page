@@ -1,0 +1,53 @@
+
+body {
+	padding: 20px 10px;
+	font-family: Helvetica;
+	max-width: 2000px;
+	margin: 0 auto;
+	font-size: 1.4em;
+	background-image: url("digitalcamo.jpg")
+
+
+}
+h1 {
+	text-align: center;
+	color: black;
+	font-size: 3.5em;
+	font-weight: bolder;
+}
+
+p {
+	margin: 10px 0;
+}
+.lesson {
+	background-color: #4F5447;
+	border: 3px solid #AFB5AF;
+	border-radius: 20px;
+	color: white;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+h2 {
+	margin: 10px;
+}
+
+.concept {
+	background-color: #AFB5AF;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
+
+.concept-title {
+	font-size: 28px;
+	margin: 8px;
+	text-align: center;
+	color: black;
+}
+
+.concept-description {
+	font-weight: lighter;
+	margin: 6px;
+}
