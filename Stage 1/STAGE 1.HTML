@@ -1,0 +1,152 @@
+
+<!DOCTYPE HTML>
+<!-- Lesson 1 -->
+<!-- Instructions: Add notes from lesson 2 to HTML from stage 0 and improve the structure of the document. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Tony's Notes</title>
+  <link rel="stylesheet" type="text/css" href="Tony-Style.css">
+</head>
+<body>
+  <h1>Ubby's Notes</h1>
+  <div class="lesson">
+    <h2>Lesson 1: The Basics of the Web and HTML</h2>
+    
+    <div class="concept">
+      <div class="concept-title">
+        WORLD WIDE WEB
+      </div>
+      <div class="concept-description">
+        <p>
+          WWW is short for the World Wide Web. It is also commonly referred to as "the web".   
+          The web is a collection of interlinked documents contained on numerous computers across the world. 
+          A specific collection of documents on the web are referred to as web pages and are accessed by a "web browser" via the internet. 
+          When a web address is typed in a web browser a request is made by that computer to the server at the web address via HTTP.  
+          The server then locates the requested HTML document and returns it to the requesting computer. 
+          The HTML document is viewed via the web browser that requested the document.
+        </p>
+      </div>
+    </div>
+    <div class="concept">
+        <div class="concept-title">HTML
+        </div>
+      <div class="concept-description">
+        <p>
+          HTML stands for <em>Hypertext Markup Language.</em> Most of the web is HTML documents.
+          <br>
+          <br>HTML documents are made up of:
+          <br>
+          <br>Text Content (what you see)
+          <br>Markup (what it looks like)
+          <br>References to other documents (ex: images & videos)
+          <br>Links to other pages
+        </p>
+      </div>
+    </div>
+    <div class="concept">
+        <div class="concept-title">MARKUP / TAGS & ELEMENTS
+        </div>
+        <div class="concept-description">
+          <p>
+             Markup is a code for formatting the layout and style of text by the application of numerous <b>tags</b>.
+             Tags create <b>elements</b> and a collection of elements create a HTML document.
+             Most tags have an opening, contents, and a closing. 
+             If you forget to close a tag then it will be applied to all text past it.
+          </p>
+          <p>Some common tags are: 
+            <br>"b" which makes contents <b>bold</b>
+            <br>"em" which makes contents <em>italics</em>
+            <br>"a" (anchor) for making links
+          </p>    
+          <p>The exception to this rule are <B>void tags</B>.
+            Void tags do not contain contents so they don't require closing.
+             <br>
+              <br>Some common void tag are: 
+              <br>"br" which ends a line of text.
+              <br>"img" defines an image
+          </p> 
+          <p>Some elements are <b>inline</b> and some are <b>block</b>.
+            Block elements create a box that can have a width and a height.
+          </p>
+        </div>
+    </div>
+    <div class="concept">
+        <div class="concept-title">ATTRIBUTES
+        </div>
+      <div class="concept-description">
+        Attributes specify a value for the contents of a tag.
+        Some common attributes are: 
+        <br>"href" which is used with the anchor tag to specify the location of the created link. 
+        The contents of the tag will be the name of the link which will be viewable to the user.
+        <br>"src" is used with the img tag to specify the url of the image to be used.
+      </div>
+    </div>
+  </div>
+  <div class="lesson">
+    <h2>Lesson 2: Creating a Structured Document with HTML</h2>
+    <div class="concept">
+      <div class="concept-title">IT'S ALL BOXES
+      </div>
+      <div class="concept-description">
+        HTML elements are either <b>inline</b> or <b>block</b>.
+        Block elements form an "invisible box" around the
+        content inside of them. The invisible boxes have a width and a height.  
+        Most everything in an HTML document is a box.
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">INDENTATION OF HTML
+      </div>
+      <div class="concept-description">
+        HTML consists of a lot of nested boxes.  The more indented the element
+        the more nested the box is.  Boxes are defined by <b>DIV</b> tags.
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">TEXT EDITORS FOR CODING
+      </div>
+      <div class="concept-description">
+        Programmers use special text editors to write code.  An example
+        would be Sublime or code pen. These editors can add ending tags 
+        automatically or let you see a live update of the web page while 
+        you change or modify code.
+      </div>
+    </div>
+  </div>
+  <div class="lesson">
+    <h2>Lesson 3: Adding CSS Style to HTML Structure</h2>
+    <div class="concept">
+      <div class="concept-title">CSS
+      </div>
+      <div class="concept-description">
+        CSS Stands for Cascading Style Sheets.  CSS provides a way to control the look and style of HTML elements.  For example background colors, fonts, text size are only a few ways to make the HTML code more pleasing to look at and easier to read.
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">AVOID REPETITION
+      </div>
+      <div class="concept-description">
+        Avoiding Repetition is one of the best ways to cut down on work content and avoid errors.  For example you can use <b>DIV</b> tags to divide your HTML code into similar boxes and assign like boxes the same Class name.  Then use CSS code to set attributes for each Class name.  This is much less labor intensive than adding similar CSS code throughout the HTML code for each <b>DIV</b> tag.  The more HTML code you have the more typing this saves you.  And if you do find an error in your CSS code you can change it in one place and it will update all of the HTML code for that class.
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">CODE, TEST, REFINE
+      </div>
+      <div class="concept-description">
+        The development tools in browsers are a great way to test and refine your code.
+        It is important that your HTML and CSS code is correct and that it complies with standards.  The following links will take you to sites where you can validate your code.  
+        <br><a href="http://validator.w3.org/#validate_by_input">click here to Validate HTML code</a>
+        <br><a href="http://jigsaw.w3.org/css-validator/#validate_by_input">click here to Validate CSS code</a>
+
+      </div>
+    </div>
+    <p>
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+      </a>
+    </p>
+  </div>
+</body>
